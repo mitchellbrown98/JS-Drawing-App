@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#myCanvas {
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+button {
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 10px 25px;
+}
+
+#canvasImg {
+    width: 75%;
+    height: 75%;
+}
+
+.modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
